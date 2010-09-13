@@ -5,10 +5,18 @@ version = VERSION
 core = 7.x
 engine = phptemplate
 
-base theme = bartik
+stylesheets[all][]    = css/sportaarhusevents.css
+stylesheets[all][]    = css/style.css
+stylesheets[all][]    = css/colors.css
+stylesheets[print][]  = css/print.css
+stylesheets[all][]    = css/maintenance-page.css
 
-stylesheets[all][] = css/sportaarhusevents.css
-stylesheets[all][] = css/style.css
-stylesheets[all][] = css/colors.css
-stylesheets[print][] = css/print.css
-stylesheets[all][] = css/maintenance-page.css
+regions[header] = Header
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second
+
+regions[footer] = Footer
