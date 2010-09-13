@@ -1,0 +1,14 @@
+name = Sport Aarhus Events
+description = Theme for the Sport Aarhus Events website
+package = Core
+version = VERSION
+core = 7.x
+engine = phptemplate
+
+base theme = bartik
+
+stylesheets[all][] = css/sportaarhusevents.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/colors.css
+stylesheets[print][] = css/print.css
+stylesheets[all][] = css/maintenance-page.css
