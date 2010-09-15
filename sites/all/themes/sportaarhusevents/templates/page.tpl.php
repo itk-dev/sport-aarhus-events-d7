@@ -77,7 +77,7 @@
 ?>
 <div id="page-wrapper"><div id="page">
 
-  <div id="header"><div class="section clearfix">
+  <div id="header" class="container-12"><div class="section clearfix">
 
     <?php if ($logo): ?>
       <a href="<?php print $front_page; ?>" title="<?php print $site_name ?>" rel="home" id="logo">
@@ -97,7 +97,13 @@
     </div></div> <!-- /.section, /#messages -->
   <?php endif; ?>
 
-  <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
+  <?php if ($page['main_menu']): ?>
+    <div id="main-menu" class="container-12"><div class="section clearfix">
+      <?php print render($page['main_menu']); ?>
+    </div></div> <!-- /.section, /#main-menu -->
+  <?php endif; ?>
+
+  <div id="main-wrapper" class="container-12 clearfix"><div id="main" class="clearfix">
 
     <?php if ($breadcrumb): ?>
       <div id="breadcrumb"><?php print $breadcrumb; ?></div>

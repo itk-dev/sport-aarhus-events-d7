@@ -5,18 +5,22 @@ version = VERSION
 core = 7.x
 engine = phptemplate
 
-stylesheets[all][]    = css/sportaarhusevents.css
-stylesheets[all][]    = css/style.css
-stylesheets[all][]    = css/colors.css
-stylesheets[print][]  = css/print.css
-stylesheets[all][]    = css/maintenance-page.css
+;960 Grid System CSS
+stylesheets[all][]      = styles/960/reset.css
+stylesheets[all][]      = styles/960/960.css
 
-regions[header] = Header
-regions[page_top] = Page top
-regions[page_bottom] = Page bottom
+stylesheets[all][]      = styles/sportaarhusevents.css
+stylesheets[all][]      = styles/style.css
+stylesheets[all][]      = styles/colors.css
+stylesheets[all][]      = styles/maintenance-page.css
+stylesheets[print][]    = styles/print.css
 
-regions[content] = Content
-regions[sidebar_first] = Sidebar first
+regions[header]         = Header
+regions[main_menu]      = Main menu
+regions[help]           = Help
+
+regions[content]        = Content
+regions[sidebar_first]  = Sidebar first
 regions[sidebar_second] = Sidebar second
 
-regions[footer] = Footer
+regions[footer]         = Footer

@@ -1,0 +1,17 @@
+body {
+  background: #bfdbee url('../images/body-background.jpg') repeat-x top center;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-color: #e1e1e1;
+}
+
+#main-menu {
+  background-color: #d1d1d1;
+}
+
+#main-wrapper {
+  background-color: #fff;
+}
