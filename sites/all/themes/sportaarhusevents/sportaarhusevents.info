@@ -15,6 +15,9 @@ stylesheets[all][]      = styles/colors.css
 stylesheets[all][]      = styles/maintenance-page.css
 stylesheets[print][]    = styles/print.css
 
+; overwrite systems css
+stylesheets[all][]      = system-menus.css
+
 regions[header]         = Header
 regions[main_menu]      = Main menu
 regions[help]           = Help
@@ -23,4 +26,5 @@ regions[content]        = Content
 regions[sidebar_first]  = Sidebar first
 regions[sidebar_second] = Sidebar second
 
+regions[footer_blocks]   = Footer blocks
 regions[footer]         = Footer
