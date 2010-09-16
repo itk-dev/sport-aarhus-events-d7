@@ -136,8 +136,6 @@
       </div></div> <!-- /.section, /#sidebar-second -->
     <?php endif; ?>
 
-  </div></div> <!-- /#main, /#main-wrapper -->
-
   <div id="footer-wrapper"><div class="section">
     <?php if ($page['footer_blocks']): ?>
       <div id="footer-blocks" class="clearfix">
@@ -150,5 +148,7 @@
       </div><!-- /#footer -->
     <?php endif; ?>
   </div></div> <!-- /.section, /#footer-wrapper -->
+
+  </div></div> <!-- /#main, /#main-wrapper -->
 
 </div></div> <!-- /#page, /#page-wrapper -->
